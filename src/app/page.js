@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col items-start justify-start px-4 text-left">
       <Hero />
       <About />
       <Skills />
