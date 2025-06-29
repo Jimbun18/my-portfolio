@@ -20,10 +20,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <Navbar /> {/* ✅ Navbar muncul di semua halaman */}
+      <body className="bg-white text-black font-sans">
         {children}
       </body>
     </html>
   );
 }
+
